@@ -4,6 +4,7 @@
   "description": "Mail Sender",
   "main": "index.js",
   "scripts": {
+    "test:watch": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -17,9 +18,11 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vitest-globals": "^1.4.0",
     "prettier": "^3.0.3",
     "tsx": "^3.14.0",
     "typescript": "^5.2.2",
+    "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6"
   }
 }

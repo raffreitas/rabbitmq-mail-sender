@@ -3,7 +3,9 @@
     "target": "es2020",
     "module": "commonjs",
     "rootDir": "./src",
-    // "types": [],
+    "types": [
+      "vitest/globals"
+    ],
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
